@@ -176,6 +176,13 @@ h2 {
   .bio {
     font-size: 12px;
   }
+   
+   .bio {
+  position: relative;
+  margin-top: 85px;
+  margin-right: 35px;
+  margin-left: 10px;
+ }
   
   .contact li img {
     width: 30px;
@@ -203,6 +210,13 @@ h2 {
   .bio {
     font-size: 15px;
   }
+   
+   .bio {
+  position: relative;
+  margin-top: 85px;
+  margin-right: 40px;
+  margin-left: 10px;
+ }
  }
 
  @media screen and (min-width: 960px) {
