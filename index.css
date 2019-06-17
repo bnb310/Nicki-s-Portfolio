@@ -161,6 +161,10 @@ h2 {
 
  @media screen and (max-width: 550px) {
   
+  h1 {
+    font-size: 20px;
+  }
+  
   .bio h2 {
     text-align: right;
   }
@@ -187,5 +191,25 @@ h2 {
    }
  }
 
- 
+ @media screen and (min-width: 550px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  .extra {
+    display: none;
+  }
+ }
+
+ @media screen and (min-width: 960px) {
+  
+  h1 {
+    font-size: 30px;
+  }
+  
+  .extra {
+    display: block;
+  }
+ }
+
 
