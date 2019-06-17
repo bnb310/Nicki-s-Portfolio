@@ -199,6 +199,10 @@ h2 {
   .extra {
     display: none;
   }
+
+  .bio {
+    font-size: 15px;
+  }
  }
 
  @media screen and (min-width: 960px) {
@@ -209,6 +213,10 @@ h2 {
   
   .extra {
     display: block;
+  }
+
+  .bio {
+    font-size: 16px;
   }
  }
 
