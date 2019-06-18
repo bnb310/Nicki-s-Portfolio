@@ -172,12 +172,9 @@ h2 {
   .extra {
     display: none;
   }
-
-  .bio {
-    font-size: 11px;
-  }
    
    .bio {
+  font-size: 11px;   
   position: relative;
   margin-top: 75px;
   margin-right: 25px;
@@ -206,12 +203,9 @@ h2 {
   .extra {
     display: none;
   }
-
-  .bio {
-    font-size: 15px;
-  }
    
-   .bio {
+   .bio {   
+  font-size: 15px;
   position: relative;
   margin-top: 85px;
   margin-right: 40px;
