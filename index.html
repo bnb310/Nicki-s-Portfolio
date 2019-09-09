@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang = 'en'>
  <head>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width">
+   <meta charset='utf-8'>
+   <meta name='viewport' content='width=device-width'>
    <title>Nickis Profile</title>
-   <link href="index.css" rel="stylesheet" type="text/css" />
+   <link href='index.css' rel='stylesheet' type='text/css' />
+   <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js' crossorigin='anonymous'></script>
  </head>
  <body>
    <main>
@@ -32,15 +33,14 @@
      <div class = 'profile normal'>
        <section class = 'portfolio'>
          <h2>Portfolio</h2>
-         <img src = 'https://i.imgur.com/ffdYdGd.png' alt = 'Quiz App Screenshot'>
-         <p>Hollow Knight Quiz Application, a quiz to test  your knowledge of the Metroidvania game 'Hollow Knight'.</p>
-         <ul class = 'projectInfo'>
-           <li>Made with love using HTML, JavaScript, and CSS</li>
-           <li><a href = 'https://github.com/bnb310/FinishedQuizApp' target = '_blank'>Repository</a></li>
-           <li><a href = 'https://bnb310.github.io/FinishedQuizApp/' target = '_blank'>Live Application</a></li>
-         </ul>
+         <div id = 'projects'>
+            <img src = 'https://i.imgur.com/80Z9yLS.png' class = 'projects Platformer'>
+            <img src = 'https://i.imgur.com/ffdYdGd.png' class = 'projects HollowKnight'>
+            <p>Click a project above to view details</p>
+         </div>
        </section>
      </div>
    </main>
+   <script src='index.js'></script>
  </body>
 </html>
